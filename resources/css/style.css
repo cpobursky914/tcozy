@@ -29,7 +29,7 @@ header{
 header img {
   height: 50px;
   padding-left: 10px;
-}
+  }
 
 nav {
   display: block;
@@ -46,9 +46,28 @@ nav {
   padding: 20px 10px;
   }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+  }
+
 #mission {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   margin: 0 auto;
 }
+
+#mission .content {
+  display: block;
+  position: relative;
+  top: 65px;
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  z-index: 2;
+  }
