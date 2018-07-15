@@ -23,21 +23,24 @@ header{
   background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
-    }
+}
 
 header img {
   height: 50px;
   padding-left: 10px;
 }
 
-#nav {
+nav {
+  display: block;
   text-align: right;
+}
+
+#nav {
   flex-grow: 1;
 }
 
 #nav span {
   display: inline-block;
   text-decoration: underline;
-  text-align: right;
   padding: 20px 10px;
   }
