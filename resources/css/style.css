@@ -73,6 +73,14 @@ h2, h3, h4, h5 {
   z-index: 2;
   }
 
+#locations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1000px;
+  margin: 0 auto;
+}
 
 
 footer {
