@@ -75,24 +75,35 @@ h2, h3, h4, h5 {
 
 #locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
+  height: 500px;
 }
 
 #locations h2 {
 background-color: transparent;
 }
-.stores {
+
+#locations .stores {
   display: flex;
   align-items: center;
-  height: 200px;
-  width: 300px;
-  opacity: 1;
+  justify-content: space-between;
   margin: 10px;
   padding: 10px 20px;
-
 }
 
+#downtown, #bayside, #oakdale {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  width: 300px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid;
+}
 
 footer {
   height: 200px;
