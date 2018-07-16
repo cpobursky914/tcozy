@@ -82,6 +82,17 @@ h2, h3, h4, h5 {
   margin: 0 auto;
 }
 
+#locations.h2 {
+
+}
+#downtown, #bayside, #oakdale {
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+  margin: 10px;
+
+}
+
 
 footer {
   height: 200px;
