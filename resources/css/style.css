@@ -47,7 +47,7 @@ nav {
   padding: 20px 10px;
   }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
   margin: 0;
   padding: 10px;
   }
@@ -93,7 +93,6 @@ footer .content {
 
 footer .copyright {
   display: block;
-  width: 100%
   margin-left: 20px;
   text-align: left;
 }
