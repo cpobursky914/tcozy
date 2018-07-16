@@ -74,22 +74,22 @@ h2, h3, h4, h5 {
   }
 
 #locations {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1000px;
   margin: 0 auto;
 }
 
-#locations.h2 {
-
+#locations h2 {
+background-color: transparent;
 }
-#downtown, #bayside, #oakdale {
+.stores {
+  display: flex;
+  align-items: center;
   height: 200px;
   width: 300px;
   opacity: 1;
   margin: 10px;
+  padding: 10px 20px;
 
 }
 
