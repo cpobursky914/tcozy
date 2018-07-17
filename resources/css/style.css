@@ -1,6 +1,5 @@
 * {
   font-family: helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -50,6 +49,7 @@ nav {
 h2, h3, h4, h5 {
   margin: 0;
   padding: 10px;
+  background-color: transparent;
   }
 
 #mission {
@@ -103,6 +103,7 @@ h2, h3, h4, h5 {
   height: 500px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 #locations .flexbox {
@@ -117,8 +118,9 @@ h2, h3, h4, h5 {
 .location {
   opacity: 1;
   padding: 10px;
-  margin: 5px 20px;
+  margin:5px 20px;
   background-color: black;
+  flex-basis: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
