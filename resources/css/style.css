@@ -73,6 +73,16 @@ h2, h3, h4, h5 {
   z-index: 2;
   }
 
+#teas {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+
+
+
 #locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
