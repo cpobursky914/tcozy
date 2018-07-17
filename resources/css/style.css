@@ -80,8 +80,23 @@ h2, h3, h4, h5 {
   padding-top: 70px;
 }
 
+.pair {
+  padding: 5px;
+}
 
+.pair img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
 
+.pair span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
 
 #locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
